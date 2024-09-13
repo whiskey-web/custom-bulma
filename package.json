@@ -1,0 +1,17 @@
+{
+  "name": "Custom Bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"bulma": "sass --load-path=node_modules whsk-bulma.scss whsk-bulma.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^1.0.2",
+    "sass": "^1.78.0"
+  }
+}

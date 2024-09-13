@@ -1,0 +1,12 @@
+// https: //bulma.io/documentation/customize/with-modular-sass/
+
+@use "bulma/sass/utilities" with (
+	$tablet:670px,
+	$desktop: 1024px,
+	$widescreen: 1280px,
+	$fullhd: 1600px
+);
+
+@forward "bulma/sass/base";
+@forward "bulma/sass/grid";
+
